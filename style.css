@@ -5,6 +5,8 @@
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
 }
+ 
+.flex{display: flex;}
 
 a{
     color: white;
@@ -18,6 +20,7 @@ a{
     color: white;
     justify-content: space-around;
     height: 7vh;
+    z-index: 100;
 }
 
 .fix_Head img{
@@ -58,19 +61,20 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    max-width: 1390px;
+    margin: 0 auto;
 }
 .card{
     display: flex;
-    width: 33%;
-    margin-bottom: 4rem;
     flex-direction: column;
-    height: 70vh;
-    background-color: #ff6900;
+    width: calc(100%/3 - 20px);
+    margin-bottom: 4rem;
 }
 .fix_Img{
-    height: 924px;
     width: 100%;
+    height: 92%;
     position: relative;
 }
 .fix_Img:hover .img1{
@@ -86,3 +90,7 @@ a{
     position: absolute;
     display: none;
 }
+.pAbsTop{position: absolute;
+    top: 10%;
+    right: 5%;
+    font-size: 2rem;}
