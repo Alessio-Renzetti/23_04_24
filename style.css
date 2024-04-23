@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.fix_Head{
+    display: flex;
+    flex-direction: row;
+    background-color: #ff6900;
+    color: white;
+    justify-content: space-around;
+    height: 7vh;
+}
+
+.fix_Head img{
+    height: 43%;
+}
+
+.fix_Text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 10%;
+    justify-content: space-around;
+}
+
+.fix_Text a:hover{
+    color: #3d5afe;
+    text-decoration: underline;
+}
+
+.fix_Logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 5%;
+    justify-content: space-around;
+}
+
+.fix_Logo a:hover{
+    color: #3d5afe;
+}
+
+.fix_Content_img{
+    display: flex;
+    align-items: center;
+}
+
+.fix_Main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.card{
+    display: flex;
+    width: 33%;
+    margin-bottom: 4rem;
+    flex-direction: column;
+    height: 70vh;
+    background-color: #ff6900;
+}
+.fix_Img{
+    height: 924px;
+    width: 100%;
+    position: relative;
+}
+.fix_Img:hover .img1{
+    display: none;
+}
+.fix_Img:hover .img2{
+    display: block;
+}
+.img1{
+    position: absolute;
+}
+.img2{
+    position: absolute;
+    display: none;
+}
